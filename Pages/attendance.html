@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attendance</title>
+  <link rel="stylesheet" href="../Assests/style.css">
+  <link rel="icon" href="../Assests/Images/Favicon.png">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.2/chart.min.js"></script>
+</head>
+<body>
+  <header>
+		<ul>
+			
+            <li><a href="../index.html">home</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="pricing.html">pricing</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="pricing.html" class="active">Attendance</a></li>
+			<li><a href="login.html" ><button id="btn1">login</button></a></li>
+        </ul>
+		<div class="logo">
+			<img src="https://indigital.co.jp/images/indigital-logo.svg" alt="Your Logo" height="50px" width="130px">
+		  </div>
+	</header>
+	<p id="month"></p>
+	<table>
+		<thead>
+			<tr>
+				<th>Date</th>
+				<th>Employee Name</th>
+				<th>Check-in Time</th>
+				<th>Check-out Time</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody id="table-body">
+		</tbody>
+	</table>
+
+	<script src="../Assests/script.js">
+	</script>
+</body>
+</html>
