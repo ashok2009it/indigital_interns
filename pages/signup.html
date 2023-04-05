@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Custom CSS-->
+        <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Signup</title>
+</head>
+
+<body>
+    <div class="register-backdrop">
+        <div class="register-box">
+
+            <div class="title">
+                <h2>Signup</h2>
+            </div>
+
+            <form>
+                <input class="form-control" type="text" 
+                name="name" placeholder="Enter Name"required>
+
+                <input class="form-control" style="margin-top:20px;" 
+                type="email" name="email" placeholder="Enter Email"required>
+
+                <input  class="form-control" style="margin-top:20px;" 
+                type="password" name="password" placeholder="Enter Password"required>
+
+                <select class="form-control selectmenu" name="state" id="state">
+                    <option value="0">Select State</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Kerala">Kerala</option>
+                </select>
+
+                <div class="country">
+
+                    <label style="color:rgb(80, 70, 70);" for="country">
+                        Select Country:</label>
+
+                    <input type="radio" id="country" name="country" value="India">
+                        <span style="color:rgb(80, 70, 70);">India</span>
+
+                    <input type="radio" id="country" name="country" value="Japan">
+                        <span style="color:rgb(80, 70, 70);" >Japan</span><br/>
+
+                    <div class="d-flex justify-content-center" style="margin-top:20px;">
+                        <input  class="btn btn-success" type="submit" value="Submit">
+                    </div> 
+
+                </div>    
+            </form> 
+        </div>
+    </div>
+</body>
+</html>
