@@ -93,92 +93,27 @@
       viewLink.style.color="#d76ca2";
 			actionCell.appendChild(viewLink);
     
+      
       viewLink.addEventListener("click", function() {
-        // popup
-        const modalContainer = document.createElement("div");
-        modalContainer.style.display = "flex";
-        modalContainer.style.justifyContent = "center";
-        modalContainer.style.alignItems = "center";
-        modalContainer.style.position = "fixed";
-        modalContainer.style.top = "0";
-        modalContainer.style.right = "0";
-        modalContainer.style.bottom = "0";
-        modalContainer.style.left = "0";
-        modalContainer.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-        modalContainer.style.zIndex = "999";
-      
-        // Create modal content
-        const modalContent = document.createElement("div");
-        modalContent.style.backgroundColor = "#fff";
-        modalContent.style.padding = "20px";
-        modalContent.style.borderRadius = "10px";
-        modalContent.style.boxShadow = "0px 0px 10px 0px rgba(0, 0, 0, 0.5)";
-        modalContent.style.width = "50%"; 
-        modalContent.style.display = "flex";
-        modalContent.style.justifyContent = "center";
-        modalContent.style.alignItems = "center"; 
-      
-        const table = document.createElement("table");
-      
-       
-        table.setAttribute("style", "max-width: 80%;");
-      
-        // table rows 
-        const nameRow = document.createElement("tr");
-        const monthRow = document.createElement("tr");
-        const dateRow = document.createElement("tr");
-        const checkinRow = document.createElement("tr");
-        const checkoutRow = document.createElement("tr");
-       
-      
-        // table cells 
-        const nameCell = document.createElement("td");
-        const monthCell = document.createElement("td");
-        const dateCell = document.createElement("td");
-        const checkinCell = document.createElement("td");
-        const checkoutCell = document.createElement("td");
-       
+        
+        const modal = document.getElementById("modal");
       
         // Set employee details 
-        nameCell.textContent = `Employee Name: ${name}`;
-        checkinCell.textContent = `Check-in Time: ${checkin.toLocaleTimeString()}`;
-        checkoutCell.textContent = `Check-out Time: ${checkout.toLocaleTimeString()}`;
-        monthCell.textContent = `Month: ${checkin.toLocaleString('default', { month: 'long' })}`;
-        dateCell.textContent = `Date: ${checkin.getDate()}`;
+        document.getElementById("name-cell").textContent = `Employee Name: ${name}`;
+        document.getElementById("checkin-cell").textContent = `Check-in Time: ${checkin.toLocaleTimeString()}`;
+        document.getElementById("checkout-cell").textContent = `Check-out Time: ${checkout.toLocaleTimeString()}`;
+        document.getElementById("month-cell").textContent = `Month: ${checkin.toLocaleString('default', { month: 'long' })}`;
+        document.getElementById("date-cell").textContent = `Date: ${checkin.getDate()}`;
       
-        // Append table cells to table rows
-        nameRow.appendChild(nameCell);
-        monthRow.appendChild(monthCell);
-        dateRow.appendChild(dateCell);
-        checkinRow.appendChild(checkinCell);
-        checkoutRow.appendChild(checkoutCell);
-       
-      
-        // Append table rows to table
-        
-        table.appendChild(nameRow);
-        table.appendChild(dateRow);
-        table.appendChild(monthRow);
-        table.appendChild(checkinRow);
-        table.appendChild(checkoutRow);
-       
-        // Append table to modal content
-        modalContent.appendChild(table);
-      
-        // Append modal content to modal container
-        modalContainer.appendChild(modalContent);
-      
-        // Append modal container to body
-        document.body.appendChild(modalContainer);
+        modal.style.display = "block";
       
         // Close modal when clicking outside of modal content
-        modalContainer.addEventListener("click", function(event) {
-          if (event.target === modalContainer) {
-            modalContainer.remove();
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
           }
-        });
+        };
       });
-      
       
       
       
