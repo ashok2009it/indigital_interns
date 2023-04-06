@@ -676,6 +676,12 @@ section .btn {
 .wrapper .form a {
   font-size: 25px;
 }
+.modal{
+  width: 1700px;
+}
+#employee-details{
+  font-size: 33px;
+}
 }
 
 @media only screen and (min-width: 1600px) {
@@ -766,6 +772,12 @@ font-size: 32px;
 }
 .wrapper .tag h1{
   font-size: 60px;
+}
+.modal{
+  width: 2000px;
+}
+#employee-details{
+  font-size: 40px;
 }
 }
 
