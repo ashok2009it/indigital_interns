@@ -161,7 +161,6 @@ color: #414141;
   margin-left: 100px;
   margin-right:100px ;
   margin-top: 25px;
-  /* margin-right: 150px; */
 }
 .wrapper .tag{
   text-align: start;
@@ -222,6 +221,7 @@ color: #414141;
 
 .contact img{
   position: absolute;
+  width: 100%;
 }
 .contact h2{
   position: relative;
@@ -266,6 +266,7 @@ color: #414141;
 }
 
 /* css for home  */
+
 .home .tag{
   position: relative;
   margin-top: 50px;
@@ -286,9 +287,13 @@ color: #414141;
   border-radius: 0;
 }
 
+.usage{
+  margin-top: 350px;
+  padding-bottom: 50px;
+}
 .home .usage h1{
   font-variant: small-caps;
-  margin: 200px 150px 0 150px;
+  margin: 0px 150px 0 150px;
   text-align: center;
   color: #414141;
 }
@@ -296,6 +301,8 @@ color: #414141;
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
 }
 
 .row {
@@ -325,6 +332,7 @@ color: #414141;
 
 .features{
   background-color:#f5f5f5 ;
+  
 }
 
 .container img{
@@ -342,16 +350,26 @@ color: #414141;
 .container h1{
   color: #333;
   font-variant: small-caps;
-  margin-left: 500px;
+  text-align: center;
+  margin: 0;
 }
-.report h1{
+.report {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.report h1 {
   color: #333;
   font-variant: small-caps;
   text-align: center;
+  margin: 0;
 }
-.report{
-  text-align: center;
-}
+
+
 
 .usage main p{
   font-size: 25px;
@@ -428,17 +446,14 @@ width: 120px;
   text-align: center;
 }
 
-.report{
-  width: 1000px;
-  margin-left: 120px;
-}
+
 
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 1000px;
-  margin: 10px 70px 70px 130px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 0 auto; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   font-variant: small-caps;
   font-size: 20px;
 }
@@ -459,7 +474,8 @@ td, th {
   font-size: 30px;
   font-variant: small-caps;
   text-align: left;
-  padding-left: 130px;
+
+  text-align: center;
  }
 
  .modal {
@@ -488,6 +504,274 @@ td, th {
   text-align: center;
   border-radius: 10px;
 }
+
+.bg{
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 1300px) {
+   .usage{
+    margin-top: 300px;
+  }
+ .home .tag h1 {
+  font-size: 100px; 
+}
+.home .tag p {
+  font-size: 40px; 
+}
+.home .tag button {
+    font-size: 35px;
+    width: 300px;
+    height: 100px;
+   }
+button{
+  font-size: 35px;
+  width: 150px;
+  height: 55px;
+}
+header ul{
+  font-size: 30px;
+  margin-left: 320px;
+}
+.logo img{
+  height: 80px;
+  width: 230px;
+}
+.usage h1{
+  font-size: 50px;
+}
+.usage main p{
+  font-size: 40px;
+}
+.features p{
+  font-size: 22px;
+  }
+.features h2{
+    font-size: 30px;
+    }
+.features h1{
+    font-size: 45px;
+    }
+.report h1{
+    font-size: 45px;
+  }
+footer{
+    font-size: 30px;
+  }
+.contact h2{
+  font-size: 60px;
+}
+.about p{
+  font-size: 22px;
+  }
+  
+  .about h1{
+    font-size: 50px;
+  }
+  .about .col-right button{
+    width: 200px;
+    font-size: 25px;
+  }
+  
+  .col-left img{
+    width: 550px;
+    height: 540px;
+  }
+   .about .box{
+    height:600px ;
+   }
+   .about h3{
+    font-size: 25px;
+   }
+   .about .box img{
+    width: 170px;
+    height: 170px;
+   }
+ .contact .form h2{
+  font-size: 40px;
+ }
+ .contact .form label   {
+  font-size: 30px;
+ }
+.contact .form input   {
+  width: 700px;
+  height: 65px;
+ }
+ .contact .form input::placeholder  {
+  font-size: 20px;
+}
+.contact .form textarea::placeholder  {
+  font-size: 20px;
+}
+.tag h1{
+font-size: 45px;
+}
+.tag p{
+  font-size: 27px;
+  }
+section{
+  width: 370px;
+}
+section h2{
+  font-size: 35px;
+}
+section .price {
+  font-size: 40px;
+}
+section li {
+  font-size: 24px;
+  color:#414141 ;
+}
+section .btn {
+  font-size: 1.7em;
+}
+.attendaceTable{
+  width: 1170px;
+  height: 700px;
+  font-size: 32px;
+  }
+  .login{
+    background-size: cover;
+  }
+  .wrapper h2{
+    font-size: 40px;
+  }
+  .login{
+    background-size: cover;
+  }
+  .wrapper {
+    width:1090px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  #beads{
+   visibility: hidden;
+  }
+ 
+  .wrapper .tag h1{
+    font-size: 55px;
+  }
+  .wrapper .form #check{
+    width: 20px;
+    height: 20px;
+  }
+ .wrapper .form input::placeholder{
+  font-size: 20px;
+ }
+ 
+
+
+
+.wrapper .form label{
+  font-size: 25px;
+}
+.wrapper .form input{
+  width: 450px;
+  height: 50px;
+}
+.wrapper .form p {
+  font-size: 25px;
+}
+.wrapper .form a {
+  font-size: 25px;
+}
+}
+
+@media only screen and (min-width: 1600px) {
+  .usage{
+   margin-top: 400px;
+ }
+.home .tag h1 {
+ font-size: 180px; 
+}
+.home .tag p {
+ font-size: 60px; 
+}
+.home .tag button {
+   font-size: 35px;
+   width: 350px;
+   height: 100px;
+  }
+header ul{
+ font-size: 35px;
+ margin-left: 500px;
+}
+
+.features p{
+font-size: 25px;
+}
+.features h2{
+  font-size: 35px;
+  }
+
+.contact h2{
+  font-size: 80px;
+}
+#headImg{
+  height: 400px;
+}
+
+.about p{
+font-size: 26px;
+}
+
+.col-left img{
+  width: 760px;
+  height: 540px;
+}
+ .about .box{
+  height:650px ;
+ }
+ .about h3{
+  font-size: 30px;
+ }
+ .about .box img{
+  width: 200px;
+  height: 200px;
+ }
+
+ .contact .form input   {
+  width: 900px;
+  height: 75px;
+ }
+ .tag h1{
+  font-size: 55px;
+  }
+  .tag p{
+    font-size: 32px;
+}
+section{
+  width: 500px;
+}
+section h2{
+  font-size: 40px;
+}
+section li {
+  font-size: 27px;
+  color:#414141 ;
+}
+.attendaceTable{
+width: 1450px;
+height: 700px;
+font-size: 32px;
+}
+#month{
+  font-size: 40px;
+}
+.wrapper {
+  width:1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.wrapper .tag h1{
+  font-size: 60px;
+}
+}
+
+
+
+
 
 
 
