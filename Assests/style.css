@@ -359,7 +359,9 @@ color: #414141;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
+  flex-direction: column;
   padding-top: 50px;
+ 
 }
 
 .report h1 {
@@ -367,6 +369,7 @@ color: #414141;
   font-variant: small-caps;
   text-align: center;
   margin: 0;
+  padding-bottom: 50px;
 }
 
 
@@ -507,6 +510,11 @@ td, th {
 
 .bg{
   width: 100%;
+}
+
+#myChart{
+  width: 1200px !important;
+  height: 750px !important;
 }
 
 
@@ -669,6 +677,7 @@ section .btn {
 .wrapper .form input{
   width: 450px;
   height: 50px;
+  border: 0.2px solid #414141;
 }
 .wrapper .form p {
   font-size: 25px;
@@ -682,22 +691,24 @@ section .btn {
 #employee-details{
   font-size: 33px;
 }
+
 }
 
 @media only screen and (min-width: 1600px) {
   .usage{
-   margin-top: 400px;
+   margin-top: 450px;
  }
 .home .tag h1 {
- font-size: 180px; 
+ font-size: 130px;
+ margin-top: 100px; 
 }
 .home .tag p {
- font-size: 60px; 
+ font-size: 50px; 
 }
 .home .tag button {
    font-size: 35px;
-   width: 350px;
-   height: 100px;
+   width: 320px;
+   height: 90px;
   }
 header ul{
  font-size: 35px;
