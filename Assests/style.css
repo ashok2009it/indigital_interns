@@ -216,7 +216,7 @@ color: #414141;
 /* css for contact page  */
 .contact ul{
   background-color: rgba(255,255,255,0);
-  position: relative; 
+   position: relative;  
 }
 
 .contact img{
@@ -389,12 +389,19 @@ color: #414141;
 .features p{
   text-align: justify;
 }
-
-.logo{
-  position: absolute;
+.logo {
+  position: absolute; 
   top: 0;
-  padding: 10px;
-  
+  left: 0;
+  padding: 10px;
+} 
+
+
+.logo img {
+  height: 30px;
+  width: 190px;
+  object-fit: none;
+  z-index: 999;
 }
 
 .columns {
@@ -546,6 +553,7 @@ header ul{
   height: 80px;
   width: 230px;
 }
+
 .usage h1{
   font-size: 50px;
 }
