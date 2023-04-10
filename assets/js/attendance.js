@@ -49,5 +49,18 @@ function appearRecord(rowId,headings)
     dayCell.innerHTML = 'Monday'
     const individualAttendanceTable = document.getElementById('individual-attendance')
     individualAttendanceTable.innerHTML = ''
+    individualAttendanceTable.classList.add('view-popup')
     individualAttendanceTable.appendChild(tableEl)
+    const closeBtn = document.createElement('button')
+    closeBtn.classList.add('view-delete','ri-close-line')
+    const closeContainer = document.createElement('div')
+    closeContainer.appendChild(closeBtn)
+    closeContainer.style.display = 'flex'
+    individualAttendanceTable.appendChild(closeContainer)
+    closeBtn.addEventListener('click',() =>
+    {
+        individualAttendanceTable.style.display = 'none'
+    })
+
+    individualAttendanceTable.style.display = 'flex'
 }
