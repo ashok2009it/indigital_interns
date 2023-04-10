@@ -49,7 +49,17 @@ function disappear() {
 	  const individualAttendanceTable = document.getElementById('attendance-record')
 	  individualAttendanceTable.innerHTML = ''
 	  individualAttendanceTable.appendChild(tableEl)
+	  individualAttendanceTable.classList.add("clearpopup")
+	  const closeBtn = document.createElement('button')
+    closeBtn.classList.add('popup-delete','ri-close-line')
+    individualAttendanceTable.appendChild(closeBtn)
+    closeBtn.addEventListener('click',() =>
+    {
+        individualAttendanceTable.style.display = 'none'
+    })
+	  individualAttendanceTable.style.display="flex"
   }
+  
 
 
 
