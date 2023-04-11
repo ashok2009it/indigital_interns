@@ -4,15 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
 .login-page {
   font-family: sans-serif;
   background:#243b55 ;
 
 }
-
 .login-box {
   position: absolute;
   top: 50%;
@@ -23,14 +19,12 @@
   background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
-
 .heading-login-box {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #fff;
   text-align: center;
 }
-
 .user-box {
   position: relative;
 }
