@@ -31,6 +31,10 @@
             <a href="signup.html">Signup</a>
         </div>
     </header>
+
+
+
+
     <section>
       <div class="title"><h1>Employee Attendance</h1></div>
       <div class="title">
@@ -43,22 +47,26 @@
             <th class="table-border">Out time</th>
             <th class="table-border">Action</th>
           </tr>
+
           <tr id="emp1">
             <td>1</td>
-            <td>Ravi</td>
-            <td>Frontend Engineer</td>
+            <td><span id="data1">Ravi <p>Test P</p></span></td>
+            <td><span id="emp1">Frontend Engineer</span></td>
             <td>10:00</td>
             <td>12:00</td>
-            <td><button class="view" onclick="appearRecord('emp1',['E-id','Employee Name','Profession','In time','Out time','Month','Day'])">View</button> / <button class="delete" onclick="showConfirmation('emp1')">Delete</button></td>
+            <td>
+              <button class="view" data-id="1" onclick="appearRecord('emp1',['E-id','Employee Name','Profession','In time','Out time','Month','Day'])">View</button> / <button class="delete" onclick="showConfirmation('emp1')">Delete</button></td>
           </tr>
+
           <tr id="emp2">
             <td>2</td>
-            <td>Pavi</td>
+            <td><span id="data2">Pavi</span></td>
             <td>Cloud Engineer</td>
             <td>10:00</td>
             <td>12:00</td>
-            <td><button class="view" onclick="appearRecord('emp2',['E-id','Employee Name','Profession','In time','Out time','Month','Day'])">View</button> / <button class="delete" onclick="showConfirmation('emp2')">Delete</button></td>
+            <td><button class="view" data-id="2" onclick="appearRecord('emp2',['E-id','Employee Name','Profession','In time','Out time','Month','Day'])">View</button> / <button class="delete" onclick="showConfirmation('emp2')">Delete</button></td>
           </tr>
+
           <tr id="emp3">
             <td>3</td>
             <td>Ria</td>
@@ -67,6 +75,7 @@
             <td>12:00</td>
             <td><button class="view" onclick="appearRecord('emp3',['E-id','Employee Name','Profession','In time','Out time','Month','Day'])">View</button> / <button class="delete" onclick="showConfirmation('emp3')">Delete</button></td>
           </tr>
+
           <tr id="emp4">
             <td>4</td>
             <td>Subha</td>
@@ -75,6 +84,7 @@
             <td>12:00</td>
             <td><button class="view" onclick="appearRecord('emp4',['E-id','Employee Name','Profession','In time','Out time','Month','Day'])">View</button> / <button class="delete" onclick="showConfirmation('emp4')">Delete</button></td>
           </tr>
+
           <tr id="emp5">
             <td>5</td>
             <td>Raghu</td>
@@ -83,8 +93,11 @@
             <td>12:00</td>
             <td><button class="view" onclick="appearRecord('emp5',['E-id','Employee Name','Profession','In time','Out time','Month','Day'])">View</button> / <button class="delete" onclick="showConfirmation('emp5')">Delete</button></td>
           </tr>
+
         </table>
       </div>
+
+
       <div id="confirmation" class="popup">
           <p>Please confirm if you want to delete this row</p>
           <div class="title">
@@ -92,10 +105,53 @@
             <button class="delete" onclick="disappear()">Delete</button>
           </div>
       </div>
+
+      <div id="detail" class="popup">
+        <p>Data Details</p>
+
+        <p>Name: <span id="name"></span> </p>
+
+         
+    
+        
+    </div>
+
       <div class="title">
         <div id="individual-attendance"></div>
       </div>
     </section>
-    <script src="../assets/js/attendance.js"></script>
+    <!-- <script src="../assets/js/attendance.js"></script> -->
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.4.min.js"
+  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+  crossorigin="anonymous"></script>
+
+
+<script>
+
+
+$(document).ready(function(){
+
+    $(".view").click(function(){
+
+      var id = $(this).data("id");
+      $('#detail').show();
+      var name = $('#data' + id).text();
+      $('#name').text(name);
+
+    });
+
+});
+
+</script>
+
+
+
+
+
+
 </body>
 </html>
