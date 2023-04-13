@@ -124,7 +124,9 @@ footer {
 	background-color: #333;
 	color: #fff;
 	padding: 20px;
+  margin-top: 80px;
 	text-align: center;
+  height: 50px;
 }
 
 .tag{
