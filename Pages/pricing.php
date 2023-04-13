@@ -7,18 +7,7 @@
   </head>
 <body>
 	<header>
-		<ul>
-			
-            <li><a href="../index.html">home</a></li>
-            <li><a href="about.html">about us</a></li>
-            <li><a href="pricing.html" class="active">pricing</a></li>
-            <li><a href="contact.html">contact</a></li>
-			<li><a href="attendance.html">attendance</a></li>
-			<li><a href="login.html" ><button id="btn1">login</button></a></li>
-        </ul>
-		<div class="logo">
-			<img src="https://indigital.co.jp/images/indigital-logo.svg" alt="Your Logo" height="50px" width="130px">
-		  </div>
+		<?php include '../Includes/header.php' ?>
 	</header>
     <div class="tag">
         <h1>choose your right plan</h1>
@@ -62,8 +51,6 @@
 			<a href="#" class="btn">Select Plan</a>
 		</section>
 	</main>
-	<footer>
-		<p>&copy; 2023 Indigital. All rights reserved.</p>
-	</footer>
+	<?php include '../Includes/footer.php' ?>
 </body>
 </html>

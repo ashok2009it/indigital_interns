@@ -12,18 +12,7 @@
     <div class="contact">
         <header>
             <img src="../Assests/Images/banner.jpg" alt="" height="300px" width="1250px" id="headImg">
-            <ul>
-                
-                <li><a href="../index.html">home</a></li>
-                <li><a href="about.html">about us</a></li>
-                <li><a href="pricing.html">pricing</a></li>
-                <li><a href="contact.html"  class="active">contact</a></li>
-                <li><a href="attendance.html">attendance</a></li>
-                <li><a href="login.html" ><button id="btn1">login</button></a></li>
-            </ul>
-            <div class="logo">
-                <img src="https://indigital.co.jp/images/indigital-logo.svg" alt="Your Logo" height="50px" width="130px">
-              </div>
+            <?php include '../Includes/header.php' ?>
             <h2 >Contact us</h2>
             
         </header>
@@ -58,5 +47,6 @@
     </div> 
 
     </div>
+    <?php include '../Includes/footer.php' ?>
 </body>
 </html>

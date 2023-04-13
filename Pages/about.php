@@ -18,20 +18,7 @@
         <div class="contact">
         <header>
             <img src="../Assests/Images/banner.jpg" alt="" height="300px" id="headImg">
-            <nav>
-            <ul>
-                
-                <li><a href="../index.html">home</a></li>
-                <li><a href="about.html"  class="active">about us</a></li>
-                <li><a href="pricing.html">pricing</a></li>
-                <li><a href="contact.html" >contact</a></li>
-                <li><a href="attendance.html">attendance</a></li>
-                <li><a href="login.html" ><button id="btn1">login</button></a></li>
-            </ul>
-            <div class="logo">
-                <img src="https://indigital.co.jp/images/indigital-logo.svg" alt="Your Logo" height="50px" width="130px">
-              </div>
-        </nav>
+            <?php include '../Includes/header.php' ?>
             <h2 >about us</h2>
             
         </header> 
@@ -97,9 +84,7 @@
         </div>
    
       
-<footer>
-    <p>&copy; 2023 Indigital. All rights reserved.</p>
-</footer>
+        <?php include '../Includes/footer.php' ?>
 </div>
 <script src="../Assests/script.js"></script>
 </body>

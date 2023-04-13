@@ -41,28 +41,27 @@
       }
     });
 
- 	// Array of employee names
    const names = ["Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Henry", "Iris", "John"];
 
-  // Generate 10 rows of random data
+  //10 rows of random data
    for (let i = 0; i < 10; i++) {
-     // Generate a random date within the last week
+     // random date 
      const date = new Date(Date.now() - Math.floor(Math.random() * 7) * 24 * 60 * 60 * 1000);
 
-     // Generate a random employee name
+     //random employee name
      const name = names[Math.floor(Math.random() * names.length)];
      
-     // Generate a random check-in time between 8:00 AM and 10:00 AM
+     //random check-in time between 8:00 AM and 10:00 AM
      const checkin = new Date(date);
      checkin.setHours(8 + Math.floor(Math.random() * 2));
      checkin.setMinutes(Math.floor(Math.random() * 60));
 
-     // Generate a random check-out time between 4:00 PM and 6:00 PM
+     //random check-out time between 4:00 PM and 6:00 PM
      const checkout = new Date(date);
      checkout.setHours(16 + Math.floor(Math.random() * 2));
      checkout.setMinutes(Math.floor(Math.random() * 60));
 
-     // Create a new table row
+     // new table row
      const row = document.createElement("tr");
 
      // Add the date column

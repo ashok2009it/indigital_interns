@@ -10,21 +10,10 @@
 </head>
 <body>
   <header>
-		<ul>
-			
-            <li><a href="../index.html">home</a></li>
-            <li><a href="about.html">about us</a></li>
-            <li><a href="pricing.html">pricing</a></li>
-            <li><a href="contact.html">contact</a></li>
-            <li><a href="attendance.html" class="active">Attendance</a></li>
-			<li><a href="login.html" ><button id="btn1">login</button></a></li>
-        </ul>
-		<div class="logo">
-			<img src="https://indigital.co.jp/images/indigital-logo.svg" alt="Your Logo" height="50px" width="130px">
-		  </div>
+  <?php include '../Includes/header.php' ?>
 	</header>
 	<p id="month"></p>
-	<table class="attendaceTable">
+	<table class="attendanceTable">
 		<thead>
 			<tr>
 				<th>Date</th>
@@ -64,4 +53,6 @@
 	<script src="../Assests/script.js">
 	</script>
 </body>
+<?php include '../Includes/footer.php' ?>
+
 </html>

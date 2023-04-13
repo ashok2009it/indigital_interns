@@ -16,11 +16,11 @@
                  <h1>Join our</h1>
                  <h1>community</h1>
                 
-                <img src="../Assests/Images/login.jpg" alt="" height="320px" width="540px" id="beads"> 
+                <img src="../Assests/Images/login.jpg" alt="" height="320px" width="564px" id="beads"> 
             </div>
             <div class="form">
                 <h2>Hello! Welcome back.</h2>
-                <form action="../index.html">
+                <form action="../index.php">
                     <label for="">Email or Mobile number</label><br>
                     <input type="Email" placeholder="example@gmail.com" required> <br>
                     <label for="">Password</label><br>
@@ -32,7 +32,7 @@
                     <br>
 
                     <div>
-                        <p>Don't have an account? <a href="signup.html">Create account!</a></p>
+                        <p>Don't have an account? <a href="signup.php">Create account!</a></p>
                     </div>
                 </form>
             </div>
