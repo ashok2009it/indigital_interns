@@ -51,6 +51,17 @@
             align-items:center;
             margin:10px auto;
         }
+        @media only screen and (min-width: 1300px) {
+            p{
+                font-size:30px;
+            }
+            h1{
+                font-size:40px;
+            }
+            .button-container button {
+            width: 200px;
+        }
+        }
     </style>
 </head>
 <body>

@@ -72,6 +72,32 @@ input[type="checkbox"] {
     border-radius: 5px;
     cursor: pointer;
   }
+   @media only screen and (min-width: 1300px) {
+   h1{
+    font-size:40px;
+  }
+  label{
+    font-size:25px;
+  }
+  input[type="checkbox"] {
+   transform: scale(2.1); 
+}
+.container{
+  max-width:800px;
+}
+input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="tel"],select{
+      height:40px;
+    }
+    input[type="submit"]{
+      height:55px;
+    }
+    select{
+      height:55px;
+    }
+   } 
   </style>
 </head>
 <body>
