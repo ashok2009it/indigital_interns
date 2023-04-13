@@ -9,46 +9,21 @@
     <title>signup page</title>
 </head>
 <body class="signup">
- <div class="container">
-    <div class="left-col">
-        <img src="../Assests/Images/signup.jpg" alt="" height="100px" width="30px">
-        join our community
-    </div> 
-            <div class="right-col form">
-                <h2>Create account</h2>
-            <form action="thanks.php" method="post" enctype="multipart/form-data">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label for="mobile">Mobile Number:</label><br>
-                <input type="tel" id="mobile" name="mobile" required><br>
-                <label for="dob">Date of Birth:</label><br>
-                <input type="date" id="dob" name="dob" required><br>
-                <label for="country">Country:</label><br>
-                <select id="country" name="country" required>
-                    <option value="">-- Select Country --</option>
-                    <option value="canada">India</option>
-                    <option value="canada">Germany</option>
-                    <option value="usa">USA</option>
-                    <option value="uk">UK</option>
-                    <option value="canada">Canada</option>
-                </select><br>
-                <label>Interests:</label><br>
-                <input type="checkbox" id="interest1" name="interests[]" value="interest1">
-                <label for="interest1">Reading</label><br>
-                <input type="checkbox" id="interest2" name="interests[]" value="interest2">
-                <label for="interest2">Writing</label><br>
-                <input type="checkbox" id="interest3" name="interests[]" value="interest3">
-                <label for="interest3">swimming</label><br>
-                <label for="profilePhoto">Profile Photo:</label><br>
-                <input type="file" id="profilePhoto" name="profilePhoto"><br>
-                <button>submit</button>
-            </form>
+  <div class="container">
+    <h1>Create Account</h1>
+    <form action="/register" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+      <label for="confirm_password">Confirm Password:</label>
+      <input type="password" id="confirm_password" name="confirm_password" required><br>
+      <input type="submit" value="Create Account">
+    </form>
+  </div>
 </body>
 </html>
 
-            </div>
-    </div> 
-</body>
-</html>
+            

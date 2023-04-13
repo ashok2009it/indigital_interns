@@ -159,74 +159,6 @@ color: #414141;
   margin-top: 25px;
 }
 
-/* css for signup page  */
-
- .container {
-  display: flex;
-}
-
- .left-col{
-  flex-basis: 40%; 
-  padding: 20px; 
-  background-color: #fff;
-  font-variant: small-caps;
-  font-size: 30px;
-
-}
-.signup .container .left-col img{
-  border-radius: 0px;
-  height:880px;
-  width: 100%;
-}
- .right-col {
-  flex-basis: 60%;
-  padding: 0 20px; 
-  background-color: whitesmoke;
-
-}
- .right-col h2{
-  text-align: center;
-}
- .right-col  input[type=text],input[type=date], input[type=email]{
-    border: none;
-    border-radius: 2px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
-    width: 430px;
-    height: 37px;
-    margin:20px 0 20px 0;
-    margin-left: 20%;
-}
- .container .right-col  input[type=tel]{
-  background-color: #fff;
-  width: 430px;
-  margin:20px 0 20px 0;
-  margin-left: 20%;
-}
-  .container .right-col select{
-  background-color: #fff;
-  width: 430px;
-  margin:20px 0 20px 0;
-  margin-left: 20%;
-} 
- .container .right-col input[type=checkbox]{
-  transform: scale(2);
-  margin:20px 10px 20px 0;
-  margin-left: 20%;
-}
- .right-col input[type=file]{
-  margin:20px 0 10px 0;
-  margin-left: 20%;
-}
- .signup button{
-  width: 430px;
-  margin-left: 20%;
-  margin-bottom: 50px;
- 
-}
-.right-col label{
-  font-size: 17px;
-  margin-left: 20%;
-}
 
 
 .wrapper .tag{
@@ -301,9 +233,6 @@ padding: 20px;
 color: #414141;
 }
 
-
-
-* {box-sizing: border-box;}
 
 .contact input[type=text],input[type=tel], select, textarea{
   width: 100%;
