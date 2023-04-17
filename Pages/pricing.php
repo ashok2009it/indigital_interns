@@ -1,8 +1,10 @@
+<?php include '../config.php'; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Pricing Page</title>
-	<link rel="stylesheet" type="text/css" href="../Assests/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>//Assests/style.css">
     <link rel="icon" href="Assests/Images/Favicon.png">
   </head>
 <body>

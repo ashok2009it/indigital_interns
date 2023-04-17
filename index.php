@@ -1,3 +1,5 @@
+<?php include 'config.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,7 +11,7 @@
         <title>Home</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.2/chart.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <link rel="stylesheet" href="Assests/style.css" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>/Assests/style.css" />
     </head>
     <body>
         <div class="home">

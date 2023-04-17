@@ -8,9 +8,9 @@ function active($currect_page){
 }
 
 ?>
-<?php
-$base_url= "http://localhost/AttendanceManagementSystem-master/indigital_interns"
-?>
+ <?php 
+ $base_url= "http://localhost/AttendanceManagementSystem-master/indigital_interns"
+?> 
 <nav>
 
     <ul>

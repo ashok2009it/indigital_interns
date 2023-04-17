@@ -1,8 +1,10 @@
+<?php include '../config.php'; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Attendance</title>
-  <link rel="stylesheet" href="../Assests/style.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>//Assests/style.css">
   <link rel="icon" href="../Assests/Images/Favicon.png">
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

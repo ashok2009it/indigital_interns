@@ -1,3 +1,5 @@
+<?php include '../config.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About US</title>
     <link rel="stylesheet" href="../Assests/style.css">
-    <link rel="icon" href="../Assests/Images/Favicon.png">
+    <link rel="icon" href="<?php echo BASE_URL; ?>//Assests/Images/Favicon.png">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.2/chart.min.js"></script>

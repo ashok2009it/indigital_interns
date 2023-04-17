@@ -1,8 +1,13 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>Create Account</title>
-  <style>
+  <!-- <link rel="stylesheet" type="text/css" href="/Assests/style.css"> -->
+  <link rel="icon" href="Assests/Images/Favicon.png">
+</head>
+<style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f8f8f8;
@@ -99,7 +104,6 @@ input[type="text"],
     }
    } 
   </style>
-</head>
 <body>
   <div class="container">
     <h1>create account</h1>

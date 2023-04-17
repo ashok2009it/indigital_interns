@@ -125,10 +125,10 @@ section .btn:hover {
 footer {
 	background-color: #333;
 	color: #fff;
-	padding: 20px;
-  margin-top: 80px;
+  padding: 20px; 
+  margin-top: 80px; 
 	text-align: center;
-  height: 50px;
+  height: 100px; 
 }
 
 .tag{
@@ -520,7 +520,7 @@ td, th {
   width: 1200px !important;
   height: 750px !important;
 }
-
+ 
 
 @media only screen and (min-width: 1300px) {
    .usage{
