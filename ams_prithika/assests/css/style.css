@@ -20,13 +20,18 @@
   border-radius: 10px;
 }
 .heading-login-box {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
   color: #fff;
   text-align: center;
+  padding-top: 110px;
 }
 .user-box {
   position: relative;
+  padding-top: 15px;
+  
+  
+  
 }
 
 .user-box-input {
@@ -39,6 +44,7 @@
   border-bottom: 1px solid #fff;
   outline: none;
   background: transparent;
+  padding-left: 10px;
 }
 
 .user-box-label {
@@ -190,6 +196,47 @@
       font-size: 12px;
   }
 }
+input[type="date"]::-webkit-calendar-picker-indicator::before {
+  content: "\1f4c5";
+  color: blue;
+  font-size: 20px;
+  margin-right: 5px;
+}
+select {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  color: #333;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+button[type="submit"] {
+  background-color: #4CAF50; /* Green background color */
+  border: none; /* Remove borders */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add some padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as inline-block */
+  font-size: 16px; /* Set font size */
+  margin: 10px 0; /* Add some margin */
+  cursor: pointer; /* Add cursor on hover */
+}
+
+button[type="submit"]:hover {
+  background-color:lightskyblue; /* Dark green hover color */
+}
+
+
 
 /* this is the table task*/
 

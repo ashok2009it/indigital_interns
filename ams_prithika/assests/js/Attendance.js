@@ -1,3 +1,12 @@
+ScrollReveal({
+    reset:true,
+    distance:'60px',
+    duration: 2500,
+    delay:400
+}
+);
+ScrollReveal().reveal('.scroll',{delay:100,origin:'top'});
+
 function showConfirmation(rowId) {
 	const confirmationEl = document.getElementById('confirmation');
 	confirmationEl.style.display = 'block';
@@ -51,19 +60,15 @@ function disappear() {
 	  individualAttendanceTable.appendChild(tableEl)
 	  individualAttendanceTable.classList.add("clearpopup")
 	  const closeBtn = document.createElement('button')
-    closeBtn.classList.add('popup-delete','ri-close-line')
-    individualAttendanceTable.appendChild(closeBtn)
-    closeBtn.addEventListener('click',() =>
+      closeBtn.classList.add('popup-delete','ri-close-line')
+      individualAttendanceTable.appendChild(closeBtn)
+      closeBtn.addEventListener('click',() =>
     {
         individualAttendanceTable.style.display = 'none'
     })
 	  individualAttendanceTable.style.display="flex"
   }
   
-
-
-
-
 function addRow() {
     var table = document.getElementById("main");
 	var rws = table.rows;
@@ -72,7 +77,7 @@ function addRow() {
 	var cell;
 	for(var i=0;i<cols;i++){
 		cell = row.insertCell(i);
-		cell.innerHTML = '<input type="text" placeholder="Enter Value">';
+		cell.innerHTML ='<input type="text" placeholder="Enter Value">';
 	}
 }
 
@@ -83,6 +88,6 @@ function addColumn() {
 	var cell;
 	for(var i=0;i<rws.length;i++){
 		cell = rws[i].insertCell(cols-1);
-		cell.innerHTML = '<input type="text" placeholder="Enter Value">';
+		cell.innerHTML ='<input type="text" placeholder="Enter Value">';
 	}
 }
