@@ -2,9 +2,19 @@
 
 1. Make sure your operating system is supported by Docker.
 2. Install Docker engine by following the official Docker documentation for your operating system.
-Install Docker CLI.
-3. Install Docker Compose by following the official Docker Compose documentation.
-4. Familiarize yourself with Docker concepts by reading the official Docker documentation.
+3. Install Docker CLI.
+4. Install Docker Compose by following the official Docker Compose documentation.
+5. Familiarize yourself with Docker concepts by reading the official Docker documentation.
+
+# Steps to setup application with docker
+
+1. Run docker application in your mechine.
+2. Open terminals from application directory 
+3. Pull latest code from the repo 
+4. Make sure stop all existing running containers on your docker 
+5. Run `docker-compose up --build` command from terminals
+6. From next time simply run `docker-compose up` command to start all container 
+7. Run `docker-compose down` to stop/remove all containers 
 
 # Here are some basic Docker commands:
 
