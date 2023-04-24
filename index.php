@@ -1,5 +1,5 @@
 <?php 
 
-    echo "Welcome Interns!";
+echo "Welcome Interns!";
 
 ?>
