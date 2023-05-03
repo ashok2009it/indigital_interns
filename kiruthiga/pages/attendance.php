@@ -1,5 +1,6 @@
 <?php
-    include 'includes/header.html';
+    include '../includes/config.php';
+    include '../includes/header.php';
 ?>
 <section>
       <div class="title"><h1>Employee Attendance</h1></div>
@@ -66,8 +67,8 @@
         <div id="individual-attendance"></div>
       </div>
 </section>
-<script src="assets/js/attendance.js"></script>
+<script src="../assets/js/attendance.js"></script>
 
 <?php
-    include 'includes/footer.html';
+    include '../includes/footer.php';
 ?>    

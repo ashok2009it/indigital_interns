@@ -1,6 +1,6 @@
 <div class="full-page">
 <?php
-    include 'includes/header.html';
+    include '../includes/header.php';
 ?>
 <div class="content" style="padding-top:90px;">
 <h1 >ATTENDANCE MANAGEMENT SYSTEM</h1>
@@ -121,10 +121,10 @@ book.
 </div>
 
 </section>
-<script src="assests/js/index.js"></script>
+<script src="../assests/js/index.js"></script>
 
 <?php
-    include 'includes/footer.html';
+    include '../includes/footer.php';
 ?>
       
 </div>

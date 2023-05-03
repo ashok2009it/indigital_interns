@@ -1,5 +1,6 @@
 <?php
-    include 'includes/header.html';
+    include '../includes/config.php';
+    include '../includes/header.php';
 ?>
 
 <section>
@@ -71,8 +72,8 @@
             </div>
 
         </div>
-        <script src="assets/js/pricing.js"></script>
+        <script src="../assets/js/pricing.js"></script>
     </section>
 <?php
-    include 'includes/footer.html';
+    include '../includes/footer.php';
 ?>    

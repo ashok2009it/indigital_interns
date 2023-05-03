@@ -42,7 +42,7 @@
         <p>Copyright ©2023 All rights reserved || Attendance Management System</p>
       </section>
       <section class="flex-content padding_1x">
-        <a href="#"><i class=" ri-facebook-fill "></i></a>
+        <a href="#"><i class="ri-facebook-fill "></i></a>
         <a href="#"><i class="ri-twitter-fill"></i></a>
         <a href="#"><i class="ri-dribbble-fill"></i></a>
         <a href="#"><i class="ri-linkedin-fill"></i></a>

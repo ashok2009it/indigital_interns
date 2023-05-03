@@ -1,5 +1,6 @@
 <?php
-    include 'includes/header.html';
+    include '../includes/config.php';
+    include '../includes/header.php';
 ?>
  <section>
             <div class="hero">
@@ -42,9 +43,9 @@
                     eef1fe65404b3da114e454af739c0da985a439560845fd70c17a0302ab825d9" alt="hero">
                 </div> 
             </div>    
-            <script src="assets/js/about.js"></script>
+            <script src="../assets/js/about.js"></script>
         </section>
         
 <?php
-    include 'includes/footer.html';
+    include '../includes/footer.php';
 ?>

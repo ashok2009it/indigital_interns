@@ -1,5 +1,6 @@
 <?php
-    include 'includes/header.html';
+    include '../includes/config.php';
+    include '../includes/header.php';
 ?>
 <section class="contact-section">
 
@@ -34,9 +35,9 @@
 
         </div>  
     </div>  
-    <script src="assets/js/contact.js"></script>
+    <script src="../assets/js/contact.js"></script>
         
 </section>
 <?php
-    include 'includes/footer.html';
+    include '../includes/footer.php';
 ?>

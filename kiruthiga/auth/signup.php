@@ -1,5 +1,5 @@
 <?php
-  include 'includes/thankyouheader.html' ;
+  include '../includes/thankyouheader.php' ;
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -15,7 +15,7 @@
         {
           $temp_name = $_FILES["profile"]["tmp_name"];
           $file_name = $_FILES["profile"]["name"];
-          $file_path = "uploads/" . $file_name;
+          $file_path = "../uploads/" . $file_name;
          
           move_uploaded_file($temp_name, $file_path);
           echo 
@@ -51,7 +51,7 @@
           }
         }
     } 
-    include 'includes/footer.html';
+    include '../includes/footer.php';
 ?>
 
 

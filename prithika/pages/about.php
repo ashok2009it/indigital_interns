@@ -3,7 +3,7 @@
 </head>-->
 <div class="full-page">
 <?php
-    include 'includes/header.html';
+    include '../includes/header.php';
 ?>
 <div class="wrapper">
     
@@ -15,7 +15,7 @@
     <div class="about-container">
         
         <div class="image-container">
-            <img src="assests/images/aboutss.png" alt="">
+            <img src="../assests/images/aboutss.png" alt="">
             
         </div>
 
@@ -56,8 +56,8 @@
 </p>
 </div>
 </div> 
-<script src="assests/js/about.js"></script>
+<script src="../assests/js/about.js"></script>
 <?php
-    include 'includes/footer.html';
+    include '../includes/footer.php';
 ?>  
 </div>

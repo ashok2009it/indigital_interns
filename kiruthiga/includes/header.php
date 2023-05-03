@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <!--Custom CSS-->
-      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css">
 
     <!--Remix Icons-->  
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -24,13 +24,13 @@
 
 <body>
     <header>
-        <a href="../indigital_interns/index.php"><img class="img" src="assets/images/indigital-logo.svg" href="#" alt="indigital" style="cursor:pointer;"></a>
+        <a href="../pages/index.php"><img class="img" src="../assets/images/indigital-logo.svg" href="#" alt="indigital" style="cursor:pointer;"></a>
         <div class="navbar">
-            <a href="../indigital_interns/about.php">About</a>
-            <a href="../indigital_interns/pricing.php">Pricing</a>
-            <a href="../indigital_interns/contact.php">Contact</a>
-            <a href="../indigital_interns/attendance.php">Attendance</a>
-            <a href="../indigital_interns/login.html">Login</a>
-            <a href="../indigital_interns/signup.html">Signup</a>
+            <a href="<?php echo BASE_URL; ?>pages/about.php">About</a>
+            <a href="<?php echo BASE_URL; ?>pages/pricing.php">Pricing</a>
+            <a href="<?php echo BASE_URL; ?>pages/contact.php">Contact</a>
+            <a href="<?php echo BASE_URL; ?>pages/attendance.php">Attendance</a>
+            <a href="<?php echo BASE_URL; ?>auth/login_ui.php">Login</a>
+            <a href="<?php echo BASE_URL; ?>auth/signup_ui.php">Signup</a>
         </div>
     </header>

@@ -1,6 +1,6 @@
 <div class="full-page">
 <?php
-    include 'includes/header.html';
+    include '../includes/header.php';
 ?>
 <div class="hello" >
           <div class="form" >
@@ -102,8 +102,8 @@
                 <p>New York, USA</p>
               </div>
             </div>
-            <script src="assests/js/contact.js"></script>
+            <script src="../assests/js/contact.js"></script>
 <?php
-    include 'includes/footer.html';
+    include '../includes/footer.php';
 ?>  
 </div>          

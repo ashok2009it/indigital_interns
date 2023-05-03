@@ -1,9 +1,10 @@
 <?php
-    include 'includes/header.html';
+    include 'includes/config.php';
+    include 'includes/header.php';
 ?>
 <section class="hero">
         <div class="hero-image-section">
-          <img class="heroimg" src="assets/images/5556.jpg" alt="hero">
+          <img class="heroimg" src="<?php echo BASE_URL; ?>assets/images/5556.jpg" alt="hero">
         </div>  
 
         <div class="herotext">
@@ -28,7 +29,7 @@
 
         <div class="team-content">
             <div class="box">
-                <img src="assets\images\cardimg1.jpg" alt="mr.xx">
+                <img src="../assets/images/cardimg1.jpg" alt="mr.xx">
                 <h3>Mr.Xxx</h3>
                 <h5>Frontend Developer</h5>
                 <div class="icons">
@@ -48,7 +49,7 @@
             </div>
 
             <div class="box">
-                <img src="assets/images/cardimg2.jpg" alt="mr.yy">
+                <img src="../assets/images/cardimg2.jpg" alt="mr.yy">
                 <h3>Mr.Yyy</h3>
                 <h5>Backend Developer</h5>
                 <div class="icons">
@@ -68,7 +69,7 @@
             </div>
 
             <div class="box">
-                <img src="assets/images/cardimg3.jpg" alt="mr.zz">
+                <img src="../assets/images/cardimg3.jpg" alt="mr.zz">
                 <h3>Mr.Zzz</h3>
                 <h5>DevOps Engineer</h5>
                 <div class="icons">
@@ -174,7 +175,7 @@
         </div>
       </div>
     </section>
-    <script src="assets/js/index.js"></script>
+    <script src="../assets/js/index.js"></script>
     <?php
-    include 'includes/footer.html';
+    include 'includes/footer.php';
 ?>
