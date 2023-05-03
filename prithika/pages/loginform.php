@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Indigilab</title>
-    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="../assests/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,7 +16,7 @@
 <body class="login-page">
         <div class="navbar">
             <div class="container">
-              <a href="../index.php"><img class="img" src="assests/images/logo.svg" href="#" alt="indigital" style="cursor:pointer;"></a>
+              <a href="../pages/index.php"><img class="img" src="../assests/images/logo.svg" href="#" alt="indigital" style="cursor:pointer;"></a>
             </div>
         </div>        
     <div class="login-box">

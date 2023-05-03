@@ -1,6 +1,6 @@
 <div class="full-page">
 <?php
-    include 'includes/header.html';
+    include '../includes/header.php';
 ?>
  <div class="align">
         <div class="container1">
@@ -52,8 +52,8 @@
         </div>
     </div>    
  </div>
- <script src="assests/js/pricing.js"></script>
+ <script src="../assests/js/pricing.js"></script>
 <?php
-    include 'includes/footer.html';
+    include '../includes/footer.php';
 ?>
 </div>

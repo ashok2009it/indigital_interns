@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Indigilab</title>
-    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="../assests/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,17 +15,17 @@
     
         <div class="navbar">
             <div class="container">
-              <a href="../ams_prithika/index.php"><img class="img" src="assests/images/logo.svg" href="#" alt="indigital" style="cursor:pointer;"></a>
+              <a href="../pages/index.php"><img class="img" src="../assests/images/logo.svg" href="#" alt="indigital" style="cursor:pointer;"></a>
             </div>
             <nav style="margin-left:300px;">
                 <ul id='MenuItems'>
                     
-                    <li><a href='../ams_prithika/about.php'>about</a></li>
-                    <li><a href='../ams_prithika/pricing.php'>Pricing</a></li>
-                    <li><a href='../ams_prithika/contact.php'>contact</a></li>
-                    <li><a href='../ams_prithika/Attendance.php'>Attendance</a></li>
-                    <li><a href='../ams_prithika/login.html'>login</a></li>
-                    <li><a href='../ams_prithika/signup.html'>signup</a></li>   
+                    <li><a href='../pages/about.php'>about</a></li>
+                    <li><a href='../pages/pricing.php'>Pricing</a></li>
+                    <li><a href='../pages/contact.php'>contact</a></li>
+                    <li><a href='../pages/Attendance.php'>Attendance</a></li>
+                    <li><a href='../pages/loginform.php'>login</a></li>
+                    <li><a href='../pages/signupform.php'>signup</a></li>   
                 </ul>
             </nav>
         </div>

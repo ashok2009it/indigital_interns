@@ -1,6 +1,6 @@
 <div class="full-page">
 <?php
-    include 'includes/success.html';
+    include '../includes/success.php';
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $name = $_POST['name'];
         $email = $_POST['email'];
@@ -49,6 +49,6 @@
     }
 ?>
 <?php
-    include 'includes/footer.html';
+    include '../includes/footer.php';
 ?>
 </div>

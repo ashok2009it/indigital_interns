@@ -1,6 +1,6 @@
 <div class="full-page">
 <?php
-    include 'includes/header.html';
+    include '../includes/header.php';
 ?>
  <table id="main" class="scroll">
           <caption class="cap-1">Developers Rating</caption>
@@ -73,8 +73,8 @@
         <div id="attendance-record">
 
        
-   <script src="assests/js/Attendance.js"></script>
+   <script src="../assests/js/Attendance.js"></script>
 <?php
-    include 'includes/footer.html';
+    include '../includes/footer.php';
 ?>
 </div>

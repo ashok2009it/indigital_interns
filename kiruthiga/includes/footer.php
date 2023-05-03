@@ -43,10 +43,10 @@
       <div class="links">
         <h4>Quick links</h4>
         <p><a href="/">Home</a></p>
-        <p><a href="../about.php">About</a></p>
-        <p><a href="../pricing.php">Pricing</a></p>
-        <p><a href="../contact.php">Contact</a></p>
-        <p><a href="../attendance.php">Attendance</a></p>
+        <p><a href="../pages/about.php">About</a></p>
+        <p><a href="../pages/pricing.php">Pricing</a></p>
+        <p><a href="../pages/contact.php">Contact</a></p>
+        <p><a href="../pages/attendance.php">Attendance</a></p>
       </div>
 
       <div class="details">
